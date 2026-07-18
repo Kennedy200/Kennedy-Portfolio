@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-script {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+::selection {
+  background-color: #C9D6D3;
+  color: #1A1A1A;
+}
+
+*:focus-visible {
+  outline: 2px solid #2F3E46;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
